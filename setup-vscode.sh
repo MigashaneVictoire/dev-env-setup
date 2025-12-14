@@ -32,8 +32,20 @@ else
 fi
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
 echo ""
 echo "✓ Installation Complete!"
 echo "VS Code version:"
 code --version
+
+echo ""
+echo "Installing python extension for VScode..."
+code --install-extension ms-python.python
+echo "VS Code version:"
+
+# create the code settings.json file if not exits
+# copy the vscode-settings.json to the s new location
+echo "Setting Code setting..."
+mkdir -p ~/Library/Application\ Support/Code/User/
+cp vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
+echo "VS Code settings configured successfully!"
+

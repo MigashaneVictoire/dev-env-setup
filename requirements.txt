@@ -1,0 +1,9 @@
+black
+mypy
+pylint
+pandas
+numpy
+polars
+requests
+pray
+notebook

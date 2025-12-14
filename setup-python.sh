@@ -17,7 +17,7 @@ echo ""
 if [ -n "$ZSH_VERSION" ]; then
     SHELL_CONFIG="$HOME/.zshrc"
 elif [ -n "$BASH_VERSION" ]; then
-    SHELL_CONFIG="$HOME/.bash_profile"
+    SHELL_CONFIG="$HOME/.bash_profile"`
 else
     SHELL_CONFIG="$HOME/.bash_profile"
 fi
