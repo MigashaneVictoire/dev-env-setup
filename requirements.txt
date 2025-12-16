@@ -7,3 +7,5 @@ polars
 requests
 pray
 notebook
+fastapi
+uvicorn
